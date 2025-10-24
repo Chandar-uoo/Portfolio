@@ -1,27 +1,30 @@
 import { LuArrowUpRight, LuGithub, LuExternalLink } from "react-icons/lu";
 
 const Projects = () => {
-  const projects = [
-    {
-      title: "RetailX - E-Commerce Platform",
-      description: "A complete full-stack MERN e-commerce platform with user authentication, shopping cart, admin dashboard, and order management. Features JWT authentication with refresh tokens, role-based access control, and real-time cart synchronization.",
-      image: "🛒",
-      technologies: ["React.js", "Redux Toolkit", "Node.js", "Express.js", "MongoDB", "JWT", "Tailwind CSS"],
-      github: "https://github.com/Chandar-uoo/E-COMMERCE-FE",
-      githubBackend: "https://github.com/Chandar-uoo/E-COMMERCE-",
-      live: "https://retailx666.netlify.app/",
-      featured: true,
-      highlights: [
-        "Complete MERN Stack Architecture",
-        "JWT Authentication & Refresh Tokens",
-        "Admin Dashboard with CRUD Operations",
-        "Real-time Cart Management",
-        "Order Tracking & Payment Simulation",
-        "Role-based Access Control"
-      ]
-    }
-    // Add more projects here when you build them
-  ];
+const projects = [
+  {
+    title: "RetailX - E-Commerce Platform",
+    description: "A full-stack MERN e-commerce platform with user authentication, shopping cart, Razorpay payment integration, admin dashboard, and order management. Features JWT authentication with refresh tokens, role-based access control, email OTP verification, and real-time cart synchronization.",
+    image: "🛒",
+    technologies: ["React.js", "Redux Toolkit", "Node.js", "Express.js", "MongoDB", "JWT", "Tailwind CSS", "Razorpay", "Nodemailer"],
+    github: "https://github.com/Chandar-uoo/E-COMMERCE-FE",
+    githubBackend: "https://github.com/Chandar-uoo/E-COMMERCE-",
+    live: "https://retailx666.netlify.app/",
+    featured: true,
+    highlights: [
+      "🖥️ Complete MERN Stack Architecture",
+      "🔐 JWT Authentication & Refresh Tokens",
+      "📧 Email OTP Verification for Signup",
+      "🛠️ Admin Dashboard with CRUD Operations",
+      "🛒 Real-time Cart Management",
+      "💳 Razorpay Payment Integration",
+      "📦 Order Tracking & Status Updates",
+      "👤 Role-based Access Control (Admin/User)",
+    ]
+  }
+  // Add more projects here when you build them
+];
+
 
   // Placeholder for future projects
   const futureProjects = [

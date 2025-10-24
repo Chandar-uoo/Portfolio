@@ -165,7 +165,7 @@ const About = () => {
         {/* Current Status */}
         <div className="bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl p-8 text-white text-center mb-16">
           <h3 className="text-2xl font-bold mb-4">Current Status</h3>
-          <p className="text-lg mb-2">🎓 5th Semester B.Com Student at Sri Ramakrishna College</p>
+          <p className="text-lg mb-2">🎓 6th Semester B.Com Student at Sri Ramakrishna College</p>
           <p className="text-lg mb-2">💻 Active MERN Stack Developer</p>
           <p className="text-lg">🚀 Open to Full-Stack Development Opportunities</p>
         </div>

@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { LuMail, LuPhone, LuMapPin, LuServer, LuCode } from "react-icons/lu";
 

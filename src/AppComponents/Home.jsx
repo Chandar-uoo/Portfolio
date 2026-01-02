@@ -13,43 +13,49 @@ const Home = () => {
               </div>
             </div>
 
-            <p className="text-lg text-gray-600 mb-2">👋 Hi, I am</p>
+            <p className="text-lg text-gray-600 mb-2">Hi, I am</p>
+
             <h1 className="text-5xl md:text-7xl font-bold text-gray-900 mb-4">
               Chandru V
             </h1>
+
             <h2 className="text-2xl md:text-3xl text-gray-700 mb-6">
-              I am a{" "}
-              <span className="text-blue-600 font-semibold">
-                Full Stack Developer
-              </span>
+              Software Developer
             </h2>
+
             <div className="flex flex-wrap gap-2 justify-center mb-6">
               <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">
-                MERN Stack Developer
+                MERN Stack
               </span>
               <span className="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-medium">
-                React.js
+                Backend-Focused
               </span>
               <span className="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-medium">
-                Node.js
+                REST APIs
               </span>
             </div>
           </div>
 
           <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-10 leading-relaxed">
-            I'm a passionate self-taught <span className="font-semibold text-gray-800">MERN Stack Developer</span> with hands-on experience in building 
-            full-stack web applications. I specialize in <span className="font-semibold text-gray-800">React.js, Node.js, MongoDB,</span> and 
-            <span className="font-semibold text-gray-800"> modern JavaScript</span> to create scalable, user-friendly applications with robust backend systems.
+            I am a Software Developer with hands-on experience building web
+            applications and backend services using the MERN stack. I work across
+            the stack, with a strong focus on backend development—designing
+            RESTful APIs, authentication flows, payment integrations, and
+            database-driven features—while writing clean, maintainable code
+            aligned with real-world application requirements.
           </p>
 
-          {/* Achievement highlight */}
+          {/* Project highlight */}
           <div className="bg-white/70 backdrop-blur-sm rounded-lg p-6 max-w-2xl mx-auto mb-10 border border-gray-200">
             <p className="text-gray-700 mb-2">
-              <span className="font-semibold text-blue-600">Featured Project:</span> Built and deployed 
-              <span className="font-semibold"> RetailX E-Commerce Platform</span>
+              <span className="font-semibold text-blue-600">
+                Featured Project:
+              </span>{" "}
+              Retalix – E-Commerce Platform
             </p>
             <p className="text-sm text-gray-600">
-              Complete MERN stack application with authentication, admin dashboard, and payment integration
+              Full-stack MERN application with authentication, admin workflows,
+              and secure payment integration
             </p>
           </div>
 
@@ -61,11 +67,12 @@ const Home = () => {
               Get In Touch
               <LuArrowUpRight size={16} />
             </Link>
+
             <Link
               to="/projects"
               className="border-2 border-blue-600 text-blue-600 px-8 py-3 rounded-lg font-medium hover:bg-blue-600 hover:text-white transition-colors duration-200 shadow-lg hover:shadow-xl"
             >
-              View My Work
+              View Projects
             </Link>
           </div>
 
@@ -73,15 +80,15 @@ const Home = () => {
           <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
             <div className="text-center">
               <div className="text-3xl font-bold text-blue-600 mb-2">1+</div>
-              <p className="text-gray-600">Years Learning</p>
+              <p className="text-gray-600">Year of Hands-On Practice</p>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-green-600 mb-2">5+</div>
-              <p className="text-gray-600">Technologies</p>
+              <div className="text-3xl font-bold text-green-600 mb-2">8+</div>
+              <p className="text-gray-600">Core Technologies</p>
             </div>
             <div className="text-center">
               <div className="text-3xl font-bold text-purple-600 mb-2">1</div>
-              <p className="text-gray-600">Live Project</p>
+              <p className="text-gray-600">Deployed Project</p>
             </div>
           </div>
         </div>

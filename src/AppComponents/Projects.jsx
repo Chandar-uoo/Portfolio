@@ -3,27 +3,59 @@ import { LuArrowUpRight, LuGithub, LuExternalLink } from "react-icons/lu";
 const Projects = () => {
 const projects = [
   {
+    title: "Multi-Tenant Booking SaaS (Backend)",
+    description:
+      "A backend system designed to support multi-tenant booking workflows for service-based businesses. The system handles tenant isolation, availability validation, and asynchronous payment processing, allowing multiple businesses to operate securely on a shared backend.",
+    image: "🏢",
+    technologies: [
+      "Node.js",
+      "Express.js",
+      "TypeScript",
+      "PostgreSQL",
+      "JWT Authentication",
+      "REST APIs",
+      "Razorpay Webhooks"
+    ],
+    githubBackend: "https://github.com/Chandar-uoo/SAAS-MyBookings", // replace if needed
+    highlights: [
+      "🏷️ Multi-tenant request handling with tenant isolation",
+      "⏱️ Real-time availability and booking validation",
+      "💳 Asynchronous payment processing using Razorpay webhooks",
+      "🔐 Secure authentication and authorization using JWT",
+      "🧩 Modular backend architecture designed for future MVP expansion"
+    ]
+  },
+  {
     title: "RetailX - E-Commerce Platform",
-    description: "A full-stack MERN e-commerce platform with user authentication, shopping cart, Razorpay payment integration, admin dashboard, and order management. Features JWT authentication with refresh tokens, role-based access control, email OTP verification, and real-time cart synchronization.",
+    description:
+      "A full-stack MERN e-commerce platform featuring user authentication, persistent cart, Razorpay payment integration, admin dashboard, and order lifecycle management.",
     image: "🛒",
-    technologies: ["React.js", "Redux Toolkit", "Node.js", "Express.js", "MongoDB", "JWT", "Tailwind CSS", "Razorpay", "Nodemailer"],
+    technologies: [
+      "React.js",
+      "Redux Toolkit",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "JWT",
+      "Tailwind CSS",
+      "Razorpay",
+      "Nodemailer"
+    ],
     github: "https://github.com/Chandar-uoo/E-COMMERCE-FE",
     githubBackend: "https://github.com/Chandar-uoo/E-COMMERCE-",
     live: "https://retailx666.netlify.app/",
     featured: true,
     highlights: [
-      "🖥️ Complete MERN Stack Architecture",
-      "🔐 JWT Authentication & Refresh Tokens",
-      "📧 Email OTP Verification for Signup",
-      "🛠️ Admin Dashboard with CRUD Operations",
-      "🛒 Real-time Cart Management",
-      "💳 Razorpay Payment Integration",
-      "📦 Order Tracking & Status Updates",
-      "👤 Role-based Access Control (Admin/User)",
+      "🖥️ End-to-end MERN stack implementation",
+      "🔐 JWT authentication with role-based access control",
+      "📧 Email-based OTP verification",
+      "🛠️ Admin dashboard for product, order, and user management",
+      "💳 Secure Razorpay payment integration",
+      "📦 Order tracking and inventory updates"
     ]
   }
-  // Add more projects here when you build them
 ];
+
 
 
   // Placeholder for future projects
